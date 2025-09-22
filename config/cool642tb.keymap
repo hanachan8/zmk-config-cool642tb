@@ -84,7 +84,7 @@
 &kp LCTRL         &kp LWIN  &kp LEFT_ALT  &lt 7 INT_MUHENKAN  &lt 6 SPACE  &lt 2 INTERNATIONAL_4  &kp BACKSPACE  &lt 6 ENTER                                &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         NUM {
@@ -122,10 +122,10 @@
 
         MOUSE {
             bindings = <
-&kp Q       &kp W     &kp E         &kp R                    &kp T                              &kp Y      &kp U     &to 7     &kp O     &kp P
-&kp A       &kp S     &kp D         &kp F                    &kp G     &kp N1    &kp ESCAPE     &kp H      &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
-&kp Z       &kp X     &kp C         &kp V                    &kp B     &kp N3    &kp RCTRL      &kp N      &kp M     &mkp MB1  &mkp MB2  &kp SLASH
-&kp ESCAPE  &kp LWIN  &kp LEFT_ALT  &kp LANG_ZENKAKUHANKAKU  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                &kp LEFT_SHIFT
+&trans      &trans    &trans        &trans  &trans                             &trans     &trans    &lt 5 F5  &trans    &trans
+&trans      &trans    &trans        &trans  &trans    &trans    &kp ESCAPE     &trans     &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
+&trans      &trans    &trans        &trans  &trans    &trans    &kp TAB        &trans     &trans    &trans    &trans    &mkp MB5
+&kp ESCAPE  &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
