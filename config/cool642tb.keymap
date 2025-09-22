@@ -89,10 +89,10 @@
 
         NUM {
             bindings = <
-&kp PLUS                &kp NUMBER_7        &kp N8               &kp N9            &kp MINUS                                 &kp F6         &kp F7    &kp F8        &kp F9     &kp F10
-&mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6      &kp SLASH  &trans          &kp ESCAPE     &kp LEFT       &kp HOME  &kp UP_ARROW  &kp END    &kp ENTER
-&mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3      &kp B      &kp TILDE       &kp TAB        &kp LC(SPACE)  &kp LEFT  &kp DOWN      &kp RIGHT  &kp SLASH
-&mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &kp INT_MUHENKAN  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER                                         &kp DELETE
+&kp PLUS                &kp NUMBER_7        &kp N8               &kp N9            &kp MINUS                                 &trans     &trans    &trans        &trans     &trans
+&mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6      &kp SLASH  &trans          &kp ESCAPE     &trans     &kp HOME  &kp UP_ARROW  &kp END    &trans
+&mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3      &kp B      &kp TILDE       &kp TAB        &trans     &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &kp INT_MUHENKAN  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER                                     &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -111,8 +111,8 @@
 
         ARROW {
             bindings = <
-&kp Q       &kp W      &kp E     &kp R      &kp T                        &kp Y        &kp U     &kp I     &kp O      &kp P
-&kp A       &kp S      &kp UP    &kp F      &kp G        &kp N1  &kp N2  &kp H        &kp J     &kp UP    &kp L      &kp ENTER
+&trans      &trans     &trans    &trans     &trans                       &kp Y        &kp U     &kp I     &kp O      &kp P
+&trans      &trans     &kp UP    &kp F      &kp G        &kp N1  &kp N2  &kp H        &kp J     &kp UP    &kp L      &kp ENTER
 &kp Z       &kp LEFT   &kp DOWN  &kp RIGHT  &kp B        &kp N3  &kp N4  &kp N        &kp LEFT  &kp DOWN  &kp RIGHT  &kp SLASH
 &kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT   &lt 6 SPACE  &kp N5  &kp N6  &lt 7 SPACE                                 &kp BSPC
             >;
