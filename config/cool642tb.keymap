@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W     &kp E         &kp R               &kp T                                              &kp Y        &kp U  &lt 7 I    &kp O       &lt 7 P
-&kp A             &kp S     &kp D         &kp F               &kp G        &trans                 &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL COLON
-&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V               &kp B        &kp MINUS              &kp TAB        &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &lt 7 INT_MUHENKAN  &lt 6 SPACE  &lt 2 INTERNATIONAL_4  &kp BACKSPACE  &lt 6 ENTER                                &kp DELETE
+&kp Q             &kp W     &kp E         &kp R               &kp T                                            &kp Y        &kp U  &lt 7 I    &kp O       &lt 4 P
+&kp A             &kp S     &kp D         &kp F               &kp G      &trans                 &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL COLON
+&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V               &kp B      &kp MINUS              &kp TAB        &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &lt 7 INT_MUHENKAN  &kp SPACE  &lt 2 INTERNATIONAL_4  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -112,9 +112,9 @@
         ARROW {
             bindings = <
 &trans      &trans     &trans    &trans     &trans                       &kp Y        &kp U     &kp I     &kp O      &kp P
-&trans      &trans     &kp UP    &kp F      &kp G        &kp N1  &kp N2  &kp H        &kp J     &kp UP    &kp L      &kp ENTER
-&kp Z       &kp LEFT   &kp DOWN  &kp RIGHT  &kp B        &kp N3  &kp N4  &kp N        &kp LEFT  &kp DOWN  &kp RIGHT  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT   &lt 6 SPACE  &kp N5  &kp N6  &lt 7 SPACE                                 &kp BSPC
+&trans      &trans     &kp UP    &kp F      &kp G        &trans  &trans  &kp H        &kp J     &kp UP    &kp L      &kp ENTER
+&kp Z       &kp LEFT   &kp DOWN  &kp RIGHT  &kp B        &trans  &trans  &kp N        &kp LEFT  &kp DOWN  &kp RIGHT  &kp SLASH
+&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT   &lt 6 SPACE  &trans  &trans  &lt 7 SPACE                                 &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
