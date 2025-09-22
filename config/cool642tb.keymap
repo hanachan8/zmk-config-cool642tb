@@ -78,8 +78,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W     &kp E         &kp R               &kp T                                              &kp Y        &kp U  &lt 6 I    &kp O       &lt 3 P
-&kp A             &kp S     &kp D         &kp F               &kp G        &to 1                  &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL COLON
+&kp Q             &kp W     &kp E         &kp R               &kp T                                              &kp Y        &kp U  &lt 6 I    &kp O       &lt 5 P
+&kp A             &kp S     &kp D         &kp F               &kp G        &trans                 &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL COLON
 &mt LEFT_SHIFT Z  &kp X     &kp C         &kp V               &kp B        &kp MINUS              &kp TAB        &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LWIN  &kp LEFT_ALT  &lt 7 INT_MUHENKAN  &lt 1 SPACE  &lt 2 INTERNATIONAL_4  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
@@ -90,7 +90,7 @@
         NUM {
             bindings = <
 &kp PLUS                &kp NUMBER_7        &kp N8               &kp N9            &kp MINUS                                 &kp F6         &kp F7    &kp F8        &kp F9     &kp F10
-&mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6      &kp SLASH  &kp N1          &kp ESCAPE     &kp LEFT       &kp HOME  &kp UP_ARROW  &kp END    &kp ENTER
+&mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6      &kp SLASH  &trans          &kp ESCAPE     &kp LEFT       &kp HOME  &kp UP_ARROW  &kp END    &kp ENTER
 &mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3      &kp B      &kp TILDE       &kp TAB        &kp LC(SPACE)  &kp LEFT  &kp DOWN      &kp RIGHT  &kp SLASH
 &mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &kp INT_MUHENKAN  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER                                         &kp DELETE
             >;
@@ -101,7 +101,7 @@
         FUNCTION {
             bindings = <
 &kp LEFT_ALT    &kp F7        &kp F8        &kp F9            &kp F12                                   &kp AT_SIGN    &kp U  &kp LEFT_BRACE        &kp RIGHT_BRACE        &mt INT_YEN RIGHT_ALT
-&kp LCTRL       &kp F4        &kp F5        &kp F6            &kp F11    &kp N1          &kp ESCAPE     &kp HASH       &kp J  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL DOLLAR
+&kp LCTRL       &kp F4        &kp F5        &kp F6            &kp F11    &trans          &kp ESCAPE     &kp HASH       &kp J  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL DOLLAR
 &kp LEFT_SHIFT  &kp F1        &kp F2        &kp F3            &kp F10    &kp TILDE       &kp TAB        &kp AMPERSAND  &kp M  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_MUHENKAN  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp TAB                                                            &kp DELETE
             >;
