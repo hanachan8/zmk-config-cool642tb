@@ -122,9 +122,9 @@
 
         MOUSE {
             bindings = <
-&trans          &trans    &trans        &trans  &trans                             &trans             &trans    &lt 5 F5  &trans    &trans
-&kp LCTRL       &trans    &trans        &trans  &trans    &trans    &kp ESCAPE     &kp C_AC_ZOOM_IN   &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
-&kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp TAB        &kp C_AC_ZOOM_OUT  &trans    &trans    &trans    &mkp MB5
+&trans          &trans    &trans        &trans  &trans                             &kp C_AC_ZOOM      &trans    &lt 5 F5  &trans    &trans
+&kp LCTRL       &trans    &trans        &trans  &trans    &trans    &kp ESCAPE     &kp C_AC_ZOOM_OUT  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
+&kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp TAB        &trans             &trans    &trans    &trans    &mkp MB5
 &kp LCTRL       &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                        &kp DEL
             >;
 
