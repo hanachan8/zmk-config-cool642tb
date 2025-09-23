@@ -87,7 +87,7 @@
             bindings = <
 &mt LEFT_ALT Q    &kp W     &kp E         &kp R    &kp T                                &kp Y        &kp U  &lt 5 I    &kp O       &mt RIGHT_ALT P
 &kp A             &kp S     &kp D         &kp F    &kp G      &trans     &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
-&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V    &kp B      &kp MINUS  &kp RCTRL      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V    &kp B      &kp MINUS  &kp RIGHT_WIN  &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LWIN  &kp LEFT_ALT  &TD_LNG  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
 
@@ -98,7 +98,7 @@
             bindings = <
 &kp PLUS                &kp NUMBER_7        &kp N8               &kp N9        &kp MINUS                            &kp C_AC_ZOOM_IN   &kp HOME  &kp UP    &kp END    &trans
 &mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6  &kp SLASH  &trans     &kp ESCAPE     &kp C_AC_ZOOM_OUT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3  &kp PRCNT  &kp TILDE  &kp RCTRL      &trans             &trans    &trans    &trans     &trans
+&mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3  &kp PRCNT  &kp TILDE  &kp RIGHT_WIN  &trans             &trans    &trans    &trans     &trans
 &mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &TD_LNG       &kp SPACE  &kp TAB    &kp BACKSPACE  &kp ENTER                                         &kp DELETE
             >;
 
@@ -109,7 +109,7 @@
             bindings = <
 &kp LEFT_ALT    &kp F7        &kp F8        &kp F9   &kp F12                                    &kp AT_SIGN    &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &mt INT_YEN DOLLAR
 &kp LCTRL       &kp F4        &kp F5        &kp F6   &kp F11    &trans           &kp ESCAPE     &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL SEMICOLON
-&kp LEFT_SHIFT  &kp F1        &kp F2        &kp F3   &kp F10    &kp EXCLAMATION  &kp RCTRL      &kp AMPERSAND  &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
+&kp LEFT_SHIFT  &kp F1        &kp F2        &kp F3   &kp F10    &kp EXCLAMATION  &kp RIGHT_WIN  &kp AMPERSAND  &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &TD_LNG  &kp SPACE  &kp TAB          &kp BACKSPACE  &kp ENTER                                                              &kp DELETE
             >;
 
@@ -131,7 +131,7 @@
             bindings = <
 &trans          &trans    &trans        &trans  &trans                             &kp C_AC_ZOOM      &trans    &to 5     &trans    &trans
 &kp LCTRL       &trans    &kp F5        &trans  &trans    &trans    &kp ESCAPE     &kp C_AC_ZOOM_OUT  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
-&kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp RCTRL      &trans             &trans    &trans    &trans    &mkp MB5
+&kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp RIGHT_WIN  &trans             &trans    &trans    &trans    &mkp MB5
 &kp LCTRL       &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                        &kp DEL
             >;
 
