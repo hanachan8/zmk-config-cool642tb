@@ -72,7 +72,7 @@
             tap-ms = <20>;
         };
 
-        TD_LNG: TD_LNG {
+        TD_LNG: td_language2_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
