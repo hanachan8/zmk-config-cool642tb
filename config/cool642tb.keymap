@@ -72,9 +72,8 @@
             tap-ms = <20>;
         };
 
-        td_DANCE_IME: td_DANCE_IME {
+        TD_LNG: TD_LNG {
             compatible = "zmk,behavior-tap-dance";
-             label = "DANCE_IME";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>;
@@ -89,7 +88,7 @@
 &mt LEFT_ALT Q    &kp W     &kp E         &kp R               &kp T                                &kp Y        &kp U  &lt 5 I    &kp O       &mt RIGHT_ALT P
 &kp A             &kp S     &kp D         &kp F               &kp G      &trans     &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
 &mt LEFT_SHIFT Z  &kp X     &kp C         &kp V               &kp B      &kp MINUS  &kp RCTRL      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &td_DANCE_IME  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
+&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &TD_LNG  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -100,7 +99,7 @@
 &kp PLUS                &kp NUMBER_7        &kp N8               &kp N9              &kp MINUS                                 &kp C_AC_ZOOM_IN   &kp HOME  &kp UP    &kp END    &trans
 &mt ASTRK LEFT_CONTROL  &kp NUMBER_4        &kp NUMBER_5         &kp NUMBER_6        &kp SLASH  &trans          &kp ESCAPE     &kp C_AC_ZOOM_OUT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &mt LEFT_SHIFT N0       &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3        &kp PRCNT  &kp TILDE       &kp TAB        &trans             &trans    &trans    &trans     &trans
-&mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &td_DANCE_IME  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER                                         &kp DELETE
+&mt LEFT_CONTROL COMMA  &mt LEFT_WIN COMMA  &mt LEFT_ALT PERIOD  &TD_LNG  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER                                         &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
