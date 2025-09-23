@@ -159,5 +159,14 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans                                                  &bt BT_CLR_ALL
             >;
         };
+
+        EAGLE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
     };
 };
