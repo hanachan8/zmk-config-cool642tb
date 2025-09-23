@@ -72,7 +72,7 @@
             tap-ms = <20>;
         };
 
-        td_Langchange: td_Langchange {
+        td_ime_mac: td_ime_mac {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
