@@ -71,6 +71,12 @@
 
             tap-ms = <20>;
         };
+        td_ZenkakuHankaku: td_ZenkakuHankaku {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <250>;
+          bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>;
+        };
     };
 
     keymap {
