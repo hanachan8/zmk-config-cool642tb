@@ -72,7 +72,7 @@
             tap-ms = <20>;
         };
 
-        td_ime_mac: td_ime_mac {
+        td_ZenkakuHankaku: td_ZenkakuHankaku {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
