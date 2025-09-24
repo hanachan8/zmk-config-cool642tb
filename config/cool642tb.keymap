@@ -85,10 +85,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_ALT Q    &kp W     &kp E         &kp R    &kp T                                  &kp Y        &kp U  &lt 5 I    &kp O       &mt RIGHT_ALT P
-&kp A             &kp S     &kp D         &kp F    &kp G        &trans     &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
-&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V    &kp B        &kp MINUS  &kp RIGHT_WIN  &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &TD_LNG  &lt 7 SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
+&mt LEFT_ALT Q    &kp W     &kp E         &kp R    &kp T                                &kp Y        &kp U  &lt 5 I    &kp O       &mt RIGHT_ALT P
+&kp A             &kp S     &kp D         &kp F    &kp G      &trans     &lt 7 ESCAPE   &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
+&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V    &kp B      &kp MINUS  &kp RIGHT_WIN  &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LWIN  &kp LEFT_ALT  &TD_LNG  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -129,7 +129,7 @@
 
         MOUSE {
             bindings = <
-&trans          &trans    &trans        &trans  &trans                             &kp C_AC_ZOOM      &trans    &to 5     &trans    &trans
+&trans          &trans    &trans        &trans  &trans                             &kp C_AC_ZOOM      &trans    &mo 5     &trans    &trans
 &kp LCTRL       &trans    &kp F5        &trans  &trans    &trans    &kp ESCAPE     &kp C_AC_ZOOM_OUT  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
 &kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp RIGHT_WIN  &trans             &trans    &trans    &trans    &mkp MB5
 &kp LCTRL       &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                        &kp DEL
