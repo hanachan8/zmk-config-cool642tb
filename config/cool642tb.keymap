@@ -99,7 +99,7 @@
 &kp LCTRL         &kp LWIN  &kp LEFT_ALT  &td_lng  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         NUM {
@@ -143,7 +143,7 @@
 &kp LCTRL       &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                        &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         SCROLL {
