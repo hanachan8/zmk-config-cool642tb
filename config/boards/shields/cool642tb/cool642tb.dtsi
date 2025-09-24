@@ -99,7 +99,7 @@
     };
 
     right_encoder: encoder_right {
-    status = "disabled";
+        status = "disabled";
     };
 
     sensors: sensors {
