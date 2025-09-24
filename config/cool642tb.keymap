@@ -64,11 +64,12 @@
             tapping-term-ms = <200>;
         };
 
-       encoder_msc_down_up: encoder_msc_down_up {
+        encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_UP_DOWN";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
 
@@ -83,7 +84,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp ESC>, <&to 7>; 
+            bindings = <&kp ESC>, <&to 7>;
         };
     };
 
@@ -93,7 +94,7 @@
         default_layer {
             bindings = <
 &mt LEFT_ALT Q    &kp W     &kp E         &kp R    &kp T                                &kp Y        &kp U  &lt 5 I    &kp O       &mt RIGHT_ALT P
-&kp A             &kp S     &kp D         &kp F    &kp G      &trans     &kp ESCAPE     &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
+&kp A             &kp S     &kp D         &kp F    &kp G      &trans     &td_esc_to7    &kp H        &kp J  &kp K      &kp L       &mt RCTRL APOSTROPHE
 &mt LEFT_SHIFT Z  &kp X     &kp C         &kp V    &kp B      &kp MINUS  &kp RIGHT_WIN  &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LWIN  &kp LEFT_ALT  &td_lng  &kp SPACE  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                                &kp DELETE
             >;
@@ -137,7 +138,7 @@
         MOUSE {
             bindings = <
 &trans          &trans    &trans        &trans  &trans                             &kp C_AC_ZOOM      &trans    &mo 5     &trans    &trans
-&trans          &trans    &kp F5        &trans  &trans    &trans    &kp ESCAPE     &kp C_AC_ZOOM_OUT  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
+&trans          &trans    &kp F5        &trans  &trans    &trans    &td_esc_to7    &kp C_AC_ZOOM_OUT  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
 &kp LEFT_SHIFT  &trans    &trans        &trans  &trans    &trans    &kp RIGHT_WIN  &trans             &trans    &trans    &trans    &mkp MB5
 &kp LCTRL       &kp LWIN  &kp LEFT_ALT  &trans  &mkp MB1  &mkp MB2  &kp BACKSPACE  &kp ENTER                                        &kp DEL
             >;
@@ -150,7 +151,7 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &to 7   &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
