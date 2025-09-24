@@ -76,14 +76,15 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>; // 1タップ=US / 2タップ=日本語
+            bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>;
         };
 
         td_esc_to7: td_escape_tolayer7 {
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <250>;
-        bindings = <&kp ESC>, <&to 7>; // 1タップ=ESC / 2タップ=レイヤー7へ移動
+        bindings = <&kp ESC>, <&to 7>; 
+        };
     };
 
     keymap {
