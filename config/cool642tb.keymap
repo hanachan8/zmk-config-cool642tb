@@ -6,7 +6,10 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 80
 #define MOUSE 4
 #define SCROLL 5
-#define NUM 1
+#define NUM 2
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 30
+#define ZMK_POINTING_DEFAULT_SCRL_TIME_TO_MAX_SPEED_MS 180
+#define ZMK_POINTING_DEFAULT_SCRL_ACCELERATION_EXPONENT 2
 
 &mt {
     flavor = "balanced";
@@ -19,12 +22,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 10>;
+            key-positions = <11 12>;
         };
 
         escape {
-            bindings = <&kp LS(ESCAPE)>;
-            key-positions = <0 1>;
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
 
         capslock {
