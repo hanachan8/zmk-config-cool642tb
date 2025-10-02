@@ -3,26 +3,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 80
+#define MOUSE 4
+#define SCROLL 5
+#define NUM 1
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
-};
-
-&trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
-
-    // arrows {
-    //     layers = <3>;
-    //     bindings =
-    //         <&kp RIGHT_ARROW>,
-    //         <&kp LEFT_ARROW>,
-    //         <&kp UP_ARROW>,
-    //         <&kp DOWN_ARROW>;
-    //     tick = <10>;
-    //     wait-ms = <5>;
-    //     tap-ms = <5>;
-    // };
 };
 
 / {
@@ -31,12 +19,17 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        escape {
+            bindings = <&kp LS(ESCAPE)>;
+            key-positions = <0 1>;
+        };
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <22 23>;
         };
 
         minus {
@@ -79,15 +72,25 @@
             tapping-term-ms = <200>;
         };
 
-        td_lang: td_language2_1 {
+        encoder_msc_down_up: encoder_msc_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_UP_DOWN";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
+
+         td_lang: td_language2_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>;
         };
+
     };
 
-    keymap {
+     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
